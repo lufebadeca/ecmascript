@@ -11,7 +11,7 @@ In this module we will learn how to use JS ES6, its features and new functionali
 - path intellisense
 - JavaScript (ES6) code snippets
 
-## SUBJECTS TO BE COVERED:
+## TOPICS TO BE COVERED:
 - let, var, const and arrow functions
 - strings (french quotation marks)
 - defaul parameters
