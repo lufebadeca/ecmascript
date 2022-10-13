@@ -6,8 +6,8 @@ console.log(a,b);
 
 //object destructuring
 let user = {username: 'Oscar', age: 34, country: 'CO'};
-let {username, co} = user;
-console.log(username, co);
+let {username, age} = user;
+console.log(username, age);
 
 //spread operator
 let person = {name: 'oscar', age: 28}

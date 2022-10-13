@@ -32,7 +32,7 @@ class User {
         console.log('new user created');
     }
     greeting(){
-        return `${this.speak()} ${this.name}`;
+        return `${this.speak()}, I'm ${this.name}`;
     }
     speak(){
         return 'Hello';
@@ -49,7 +49,7 @@ class User {
         this.age = age;
     }
     greeting(){
-        return `${this.speak()} ${this.name}`;
+        return `${this.speak()}, I'm ${this.name}`;
     }
     speak(){
         return 'Hello';
