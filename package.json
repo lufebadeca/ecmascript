@@ -11,5 +11,6 @@
     "ecmascript"
   ],
   "author": "Luis Baldovino <lufebadeca\"gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }

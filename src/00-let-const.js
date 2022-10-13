@@ -1,3 +1,10 @@
+/*project initialization:
+mkdir folder_name
+npm init [-y for default config]
+populate the questions and continue
+after having created the JSON file, add "type": "module" for module compatibility 
+*/
+
 var lastName = 'David';
 lastName = 'Oscar';
 console.log(lastName);
@@ -7,7 +14,7 @@ fruit = 'Kiwi';
 console.log(fruit);
 
 const animal = 'Dog';
-animal = 'cat';
+//animal = 'cat';
 console.log(animal);
 
 const fruits = () =>{
@@ -20,3 +27,4 @@ const fruits = () =>{
     console.log(fruit2);
     console.log(fruit3);
 }
+fruits();
