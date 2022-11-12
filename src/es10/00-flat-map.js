@@ -2,7 +2,7 @@
 const array = [1,1,2,3,4,[1,3,5,6,[1,2,4]]];
 console.log(array.length);
 
-console.log(array.flat(1).length);
+console.log(`Flat by 1 level: ${a}`, array.flat(1).length);
 console.log(array.flat(1));
 console.log(array.flat(2).length);
 console.log(array.flat(2));

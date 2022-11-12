@@ -12,7 +12,7 @@ const asyncFunct = () => {
 //Async and await are two reserved words for JS asyncronism handling
 
 //this new function receives async and await as parameters to execute the above promise asyncronously
-const handlerFunction = async () => {        //async determines hat the function will wait for something and will keep working until its completed
+const handlerFunction = async () => {        //async determines that the function will wait for something and will keep working until its completed
     const promiseResult = await asyncFunct();       //await tells that a following promise is to be awaited until its completion
     console.log(promiseResult);                     //the variable saved the result of 'resolving' the promise and is shown in this line
     console.log("Hello, I'm the handling function");    //the rest of handler function will then execute only after the promise is completed
