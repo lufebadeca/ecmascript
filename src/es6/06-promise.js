@@ -1,10 +1,11 @@
 // promises solve the intricacies of working with callbacks, functions that receive other functions as parameters and
-//execute them depending on whether cerain conditions happen or not
+//execute them depending on whether certain conditions happen or not
 
 const anotherFunction = () => {     //main function
     return new Promise((resolve, reject)=>{     //Promise (all reserved words)
         if(true){           //true just to control the condition to be executed
-            resolve('Heyyy!!');
+            setTimeout(() => resolve('Async action done with 3.5 secs delay'), 3500);
+            //resolve('Heyyy!!');
         }else{
             reject('Whooops!');
         }
